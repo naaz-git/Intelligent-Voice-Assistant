@@ -1,4 +1,4 @@
-![Alt text](Trisha_logo.jpeg)
+![Alt text](Trisha_logo.jpeg,width=100)
 
 
 # Trisha:Intelligent Virtual Assistant
