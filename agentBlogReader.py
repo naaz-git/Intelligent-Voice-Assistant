@@ -24,7 +24,8 @@ from langchain_text_splitters import CharacterTextSplitter
 
 # Chroma DB
 #from langchain_chroma import Chroma
-from langchain_chroma.vectorstores import Chroma
+#from langchain_chroma.vectorstores import Chroma
+from langchain.vectorstores import FAISS
 
 import os
 import re
