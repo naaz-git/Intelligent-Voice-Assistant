@@ -30,7 +30,7 @@ import re
 import shutil
 import pickle
 
-from dotenv import load_dotenv
+
 
 # Handling Directory Operations
 def make_empty_directory(path):
@@ -114,10 +114,24 @@ def RAG(gblVariables, user_id, conversation_id, conversation_url, conversation_t
         arbitrary_types_allowed             = True
 
     # print("user_id and conversation_id", user_id, conversation_id)
+
     # Only LLM response
     if gblVariables == None and conversation_url == None:
         load_dotenv()
         gorq_api_key= os.getenv("GORQ_API_KEY")
+
+        # Access the secrets
+
+        LANGCHAIN_TRACING_V2= st.secrets[LANGCHAIN_TRACING_V2]
+        LANGCHAIN_ENDPOINT=   st.secrets[LANGCHAIN_ENDPOINT]
+        LANGCHAIN_API_KEY=    st.secrets["LANGCHAIN_API_KEY"]
+        LANGCHAIN_PROJECT=    st.secrets[LANGCHAIN_PROJECT]
+
+        GORQ_API_KEY=   st.secrets["GORQ_API_KEY"]
+        HF_TOKEN =      st.secrets["HF_TOKEN"]
+        HUGGINGFACEHUB_API_TOKEN=     st.secrets[HUGGINGFACEHUB_API_TOKEN]
+        SERP_API_KEY=                 st.secrets[SERP_API_KEY]
+             
         llm         = ChatGroq(groq_api_key=gorq_api_key, model_name="Gemma2-9b-It")
         response    = llm.invoke("Respond only in English language. " + query)
         return response
