@@ -107,8 +107,8 @@ class gblVariablesClass:
 def RAG(gblVariables, user_id, conversation_id, conversation_url, conversation_title, 
          prompt_flag, time_available_mins, query):
 
-    path_folder_vdb                         = '/Users/kapple/Documents/Masters_Study_2/NLP/Project/RAG/vectorDBStore/'
-    path_folder_users                       = '/Users/kapple/Documents/Masters_Study_2/NLP/Project/RAG/users/'
+    path_folder_vdb                         = './vectorDBStore'
+    path_folder_users                       = './users'
 
     class Config:
         arbitrary_types_allowed             = True
