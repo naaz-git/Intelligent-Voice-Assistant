@@ -36,5 +36,5 @@ sounddevice
 pyttsx3
 
 #./pyaudio_wheels-0.0.1-cp39-cp39-manylinux2010_x86_64.whls
-portaudio
+portaudio19-dev
 pyaudio
