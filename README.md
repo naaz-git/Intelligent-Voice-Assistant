@@ -1,4 +1,4 @@
-![Alt text](image_url_or_path)
+![Alt text](Trisha_logo.jpeg)
 
 
 # Trisha:Intelligent Virtual Assistant
