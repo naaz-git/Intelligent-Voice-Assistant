@@ -27,8 +27,8 @@ streamlit
 streamlit_float
 
 # Google Search
-serpapi>=2.0.0
 google-search-results
+serpapi
 
 # Speach to Text
 SpeechRecognition
