@@ -48,7 +48,7 @@ Trisha is an innovative virtual assistant that leverages voice interaction to si
 - **Frameworks**: Langchain,Huggingface, Streamlit
 - **VectorDB**: ChromaDB
 - **GenAI**: RAG, GROQ, Gemini
-- 
+  
 
 ---
 
