@@ -45,24 +45,26 @@ Trisha is an innovative virtual assistant that leverages voice interaction to si
 ## 🛠️ Tech Stack
 
 - **Programming Language**: Python
-- **Frameworks**: TensorFlow, Keras, Streamlit
-- **Libraries**: OpenCV, MediaPipe
-- **Future Integrations**: Google AI for enhanced query results
+- **Frameworks**: Langchain,Huggingface, Streamlit
+- **VectorDB**: ChromaDB
+- **GenAI**: RAG, GROQ, Gemini
+- 
 
 ---
 
 ## 🌟 Future Enhancements
 
-1. **Mobile Applications**: Expand Trisha to iOS and Android platforms.
-2. **AI Integration**: Enhance Trisha's intelligence using Google AI for smarter responses.
-3. **Multilingual Support**: Enable interaction in multiple languages to serve a global audience.
-
+1. Trisha will be a stand alone product, will have its own
+mobile native apps.
+2. Can hold and speak multiple languages.
+3. Will be integrated with third party apps to become an all
+round assistance
+4. Next iteration of trisha will be able see and interact with
+the world
 ---
 
-## 📖 How to Get Started
-
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.10 or higher
 - Required Python libraries:  
   Install using the command:
   ```bash
