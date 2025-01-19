@@ -1,3 +1,5 @@
+from serpapi.google_search import GoogleSearch
+
 from serpapi import GoogleSearch
 import os
 import pickle
