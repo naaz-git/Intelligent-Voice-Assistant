@@ -1,3 +1,6 @@
+![Alt text](image_url_or_path)
+
+
 # Trisha:Intelligent Virtual Assistant
 
 Trisha is an innovative virtual assistant that leverages voice interaction to simplify tasks such as studying, cooking, driving, and much more. By summarizing lengthy content and providing personalized results, Trisha ensures users can access relevant information efficiently, even while multitasking.
