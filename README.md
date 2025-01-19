@@ -1,4 +1,4 @@
-![Alt text](Trisha_logo.jpeg,width=100)
+<img src="Trisha_logo.jpeg" alt="Trisha Logo" width="100">
 
 
 # Trisha:Intelligent Virtual Assistant
