@@ -4,7 +4,7 @@ import pickle
 
 def searchBlogsFunc(query, sites):
     #SERP_API_KEY    = os.getenv("SERP_API_KEY")
-    st.secrets[SERP_API_KEY]
+    SERP_API_KEY = st.secrets[SERP_API_KEY]
 
     site_query      = " OR ".join([f"site:{site}" for site in sites])  # Combine sites with OR
     full_query      = f"{query} {site_query}"
