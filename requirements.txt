@@ -18,6 +18,8 @@ bs4
 arxiv
 wikipedia
 
+sqlite3
+
 # Vector Datastore
 chromadb
 # chroma-cumber # To dump and load chroma dump
